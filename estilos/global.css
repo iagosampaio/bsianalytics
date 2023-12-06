@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;  
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+body {
+    font-size: 100%;
+    background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+  }
+
+  .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 21px;
+  }
+  
+  .cabecalho-imagem {
+    height: 72px;
+  }
+  
+  .cabecalho-menu {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .cabecalho-menu-item, .cabecalho-menu-sessao, .cabecalho-menu-sair {
+    font-family: 'Sarala', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .cabecalho-menu-item_ativo {
+    font-family: 'Sarala', sans-serif;
+    color: #3de010;
+    font-weight: 400; 
+    font-size: 18px;
+    transform: scale(1.1);
+  }
+  
+  .cabecalho-menu-item:hover {
+    color: #3de010;
+    transform: scale(1.1);
+  }
+  
+  .cabecalho-menu-sessao:hover {
+    color: #a5a7a5;
+    cursor: default;
+  }
+  
+  .cabecalho-menu-sair:hover {
+    color: #ff0000; 
+    transform: scale(1.1);
+  }
+
+  .conteudo {
+    margin-bottom: 20px;
+    border-top: 0.4px solid #FFFFFF;
+  }
+

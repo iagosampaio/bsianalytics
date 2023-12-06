@@ -1,0 +1,54 @@
+
+.conteudo-primario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 52px;
+}
+
+.conteudo-primario-titulo {
+  border-top: 0.4px solid #FFFFFF;
+  padding-top: 48px;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.conteudo-primario-paragrafo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.botao-repositorio {
+  background-color: #DBF4FF;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+
+.botao-repositorio:hover {
+  background-color: rgba(106, 190, 232, 0.53);
+}
+
+.rodape {
+  padding: 20px;
+  border-top: 0.4px solid #FFFFFF;
+  
+}
+
+.rodape-imagem {
+height: 76px;
+display: block;
+margin: 0 auto;
+}

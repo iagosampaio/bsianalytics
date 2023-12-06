@@ -1,0 +1,27 @@
+.table-bg{
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px 15px 0 0;
+}
+
+.box-search{
+    display: flex;
+    justify-content: center;
+    gap: .1%;
+}
+
+.cabecalho-menu-item, .cabecalho-menu-sessao, .cabecalho-menu-sair, .cabecalho-menu-item_ativo {
+   text-decoration: none !important;
+  }
+
+  .cabecalho-menu-item_ativo {
+    font-family: 'Sarala', sans-serif !important;
+    color: #3de010 !important;
+    font-weight: 400 !important; 
+    font-size: 18px !important;
+    transform: scale(1.1) !important;
+  }
+  
+tr, td {
+    text-align: center !important;
+}
+

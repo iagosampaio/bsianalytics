@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.estatisticas {
+  text-align: center;
+}
+
+.grafico-info {
+  font-family: 'Sarala', sans-serif;
+  font-size: 18px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.box{
+    margin: 1em;
+    float: left;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 12px;
+    border-radius: 15px;
+    width: 18%;
+}
+
+fieldset{
+    border: 3px solid dodgerblue;
+    font-family: 'Sarala', sans-serif;
+    font-size: 14px;
+}
+legend{
+    border: 1px solid dodgerblue;
+    padding: 2px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 6px;
+}
+
+input[type="radio"] {
+    position: absolute; 
+    opacity: 0; 
+  }
+  
+  input[type="radio"] + label::before {
+    content: ""; 
+    display: inline-block;
+    width: 11px; 
+    height: 11px; 
+    border-radius: 50%; 
+    border: 3px solid #007bff; 
+    background-color: #fff; 
+    margin-right: 6px; 
+  }
+  
+  input[type="radio"]:checked + label::before {
+    background-color: #007bff; 
+  }
+  
+/* Estilos CSS para ocultar elementos */
+.hide {
+    opacity: 0;
+    pointer-events: none; /* Isso evita que os elementos ocultos sejam clicáveis */
+    height: 0; /* Reduz a altura para 0 para evitar que ocupem espaço */
+    overflow: hidden; /* Esconde qualquer conteúdo que possa se espalhar além dos limites */
+    transition: opacity 0.3s ease; /* Adiciona uma transição suave para a animação de fade */
+}
+
+/* Estilos CSS para mostrar elementos */
+.show {
+    opacity: 1;
+    pointer-events: auto; /* Torna os elementos clicáveis novamente */
+    height: auto; /* Restaura a altura padrão */
+    overflow: visible; /* Exibe todo o conteúdo */
+}
